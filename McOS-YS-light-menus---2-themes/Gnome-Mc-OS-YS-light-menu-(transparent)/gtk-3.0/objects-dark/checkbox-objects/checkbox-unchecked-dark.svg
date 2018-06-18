@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="16" width="16" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 4.2333332 4.2333335">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <rect rx=".23151" transform="rotate(90)" height="3.2411" width="3.2411" y="-3.7372" x=".49001" stroke-width=".23151" fill="#fff"/>
+ <g transform="translate(0,-292.77)">
+  <rect rx=".75627" ry=".75627" height="3.7042" width="3.7042" y="293.03" x=".26458" fill="#262934"/>
+  <rect rx=".65543" ry=".65543" height="3.2103" width="3.2103" y="293.28" x=".51153" fill="#2d323d"/>
+  <path opacity=".2" d="m1.1675 293.28c-0.36311 0-0.65595 0.29284-0.65595 0.65594v0.24695c0-0.36311 0.29284-0.65595 0.65595-0.65595h1.8984c0.36311 0 0.65595 0.29284 0.65595 0.65595v-0.24695c0-0.3631-0.29284-0.65594-0.65595-0.65594z" fill="#2d323d"/>
+ </g>
+</svg>

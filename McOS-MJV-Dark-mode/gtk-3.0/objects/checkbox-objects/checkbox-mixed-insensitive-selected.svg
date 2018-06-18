@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="16"
+   width="16"
+   version="1.1"
+   viewBox="0 0 4.2333332 4.2333335"
+   id="svg18"
+   sodipodi:docname="checkbox-mixed-insensitive-selected.svg"
+   inkscape:version="0.92.1 r15371">
+  <defs
+     id="defs22" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="999"
+     inkscape:window-height="763"
+     id="namedview20"
+     showgrid="false"
+     inkscape:zoom="14.75"
+     inkscape:cx="9.1950462"
+     inkscape:cy="8"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg18" />
+  <metadata
+     id="metadata2">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g5278">
+    <rect
+       rx="0"
+       ry="0"
+       height="3.6887"
+       width="3.6887"
+       y="0.27998778"
+       x="0.26458001"
+       id="rect4"
+       style="fill:none" />
+    <rect
+       style="opacity:0.3;fill:#ffffff;fill-opacity:0"
+       id="rect6"
+       x="0.28003001"
+       y="0.25999877"
+       width="3.6887"
+       height="3.6887"
+       ry="0.75310999"
+       rx="0.75310999" />
+    <rect
+       style="opacity:0.3;fill:#ffffff;fill-opacity:0.0093458"
+       id="rect8"
+       x="0.52594"
+       y="0.5099988"
+       width="3.1968999"
+       height="3.1968999"
+       ry="0.65270001"
+       rx="0.65270001" />
+    <rect
+       style="opacity:0.70400002"
+       id="rect10"
+       x="0.97166997"
+       y="2.0399976"
+       width="2.3053999"
+       height="0.48414001"
+       ry="0.24207"
+       rx="0.27908" />
+    <rect
+       style="fill:#cccccc;fill-opacity:1"
+       id="rect12"
+       x="0.97166997"
+       y="1.8600049"
+       width="2.3053999"
+       height="0.48414001"
+       ry="0.24207"
+       rx="0.27908" />
+  </g>
+</svg>

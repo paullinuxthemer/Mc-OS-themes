@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="32" width="32" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 8.466667 8.4666669">
+ <defs>
+  <linearGradient id="linearGradient3856-4-0" x1="398.38" gradientUnits="userSpaceOnUse" x2="398.38" gradientTransform="matrix(1.1378,0,0,1.1378,-585.14,-1071.3)" y1="513.91" y2="503.7">
+   <stop stop-color="#aaa" offset="0"/>
+   <stop stop-color="#aaa" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g transform="matrix(2 0 0 2 .0020856 -585.53)">
+  <g id="checkbox-unchecked-insensitive" transform="matrix(.21704 0 0 .21704 -6.4647 347.13)">
+   <g transform="translate(169.56,253.89)">
+    <rect rx="1.0667" transform="rotate(90)" height="14.933" width="14.933" y="122.56" x="-502.08" stroke-width="1.0667" fill="#fff"/>
+    <rect rx="3.4844" ry="3.4844" height="17.067" width="17.067" y="-503.15" x="-138.56" fill="url(#linearGradient3856-4-0)"/>
+    <rect rx="3.0199" ry="3.0199" height="14.791" width="14.791" y="-502.01" x="-137.42" fill="#f2f2f2"/>
+    <path opacity=".1" d="m-134.4-502.01c-1.673 0-3.0222 1.3492-3.0222 3.0222v1.1378c0-1.673 1.3492-3.0222 3.0222-3.0222h8.7467c1.673 0 3.0222 1.3492 3.0222 3.0222v-1.1378c0-1.673-1.3492-3.0222-3.0222-3.0222z"/>
+   </g>
+  </g>
+ </g>
+</svg>
