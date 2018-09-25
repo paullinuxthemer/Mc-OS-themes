@@ -10656,11 +10656,13 @@ popup decoration {
 
 .ssd decoration {
   margin: 0px;
-  box-shadow: 1px 8px 8px 8px rgba(0, 0, 0, 0.16),0 0 0 1px rgba(0, 0, 0, 0.18);}
+  box-shadow: none;
+}
 
 .ssd decoration:backdrop {
   margin: 0px;
-  box-shadow: 1px 8px 8px 8px rgba(0, 0, 0, 0.16),0 0 0 1px rgba(0, 0, 0, 0.18);}
+  box-shadow: none;
+}
 
 .csd.popup decoration {
   border-radius: 4px;
