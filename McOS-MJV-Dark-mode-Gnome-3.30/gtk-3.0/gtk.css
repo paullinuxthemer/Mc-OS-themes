@@ -10901,19 +10901,20 @@ headerbar button.titlebutton.restore:active,
 /*--------------DECORATION ---------------------------------------  */
 /********************************************************************/
 
-decoration {
+.csd decoration {
 
   border-radius: 6px 6px 0 0;
-  border-width: 0px;
-  box-shadow: 1px 14px 14px 14px rgba(0, 0, 0, 0.4)/* 0 0 0 1px rgba(0, 0, 0, 0.18)*/;
+  border-width: 1px;
+  box-shadow: 1px 8px 8px 8px rgba(0,0,0,0.3),0 0 0 1px rgba(0, 0, 0, 0.1);
   margin: 4px;}
 
-decoration:backdrop{
+.csd decoration:backdrop{
 
   border-radius: 6px 6px 0 0;
-  border-width: 0px;
-  box-shadow: 1px 14px 14px 14px rgba(0, 0, 0, 0.4)/* 0 0 0 1px rgba(0, 0, 0, 0.18)*/;
+  border-width: 1px;
+  box-shadow: 1px 8px 8px 8px rgba(0,0,0,0.18),0 0 0 1px rgba(0, 0, 0, 0.1);
   margin: 4px;}
+
 
 .maximized decoration,
 .fullscreen decoration,
@@ -10925,17 +10926,21 @@ popup decoration {
 
   box-shadow: 1px 7px 7px 7px rgba(0, 0, 0, 0.26);
   border-radius: 4px;}
-
+ 
 .ssd decoration {
-  margin: 0px;
-  box-shadow: 1px 8px 8px 8px rgba(0, 0, 0, 0.16),0 0 0 1px rgba(0, 0, 0, 0.18);}
 
+  border-radius: 6px 6px 0 0;
+  box-shadow: none;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);}
+  
 .ssd decoration:backdrop {
-  margin: 0px;
-  box-shadow: 1px 8px 8px 8px rgba(0, 0, 0, 0.16),0 0 0 1px rgba(0, 0, 0, 0.18);}
 
+ border-radius: 6px 6px 0 0;
+ box-shadow: none;
+ box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);}
+  
 .csd.popup decoration {
-  border-radius: 5px;
+  border-radius: 4px;
   box-shadow: -1px 4px 4px 1px rgba(0, 0, 0, 0.28);}
 
  
@@ -11360,14 +11365,45 @@ window.background:not(.solid-csd) > notebook:not(.frame) > stack {
   border: none;
   box-shadow: none; }
 
+/*(((((((((((( headerbar changes ))))))))))))*/
+  
+headerbar:first-child:backdrop,
 headerbar:first-child{
 
-  border-top-left-radius: 5px; }
+  border-top-left-radius: 6px; }
   
-
+headerbar:last-child:backdrop,  
 headerbar:last-child{
+
+  border-top-right-radius: 6px; }
   
-  border-top-right-radius: 5px; }
+headerbar:only-child:backdrop, 
+headerbar:only-child{
+
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;}
+    
+.nautilus-window .path-bar button {
+  
+  color: #bcbcbc;
+  text-shadow:  0 -1px alpha(#ffffff, 0.04),
+				 -1px  0px alpha(#202020, 0.05),
+				  1px  0px alpha(#202020, 0.05),
+				  0px  1px alpha(#202020, 0.3),
+				  0px  2px alpha(#202020, 0.05);
+  background-color: transparent;
+  background-image: linear-gradient(to bottom,#67686a,#626366);
+  border: 1px solid;
+  border-color:#7c7d80 #535457 #3e3f41 #535457;
+  font-weight: normal;
+  border-radius: 3px;
+  min-height: 16px;
+  min-width: 16px;
+  padding: 3px 6px 3px 6px;
+  /*margin-top: 7px;
+  margin-bottom: 4px;*/
+  margin-left: -7px;}
+  
   /*((((((((((((3.30 nautilus changes)))))))))))))))))*/
   
 .nautilus-window .path-bar button.text-button,
@@ -11418,7 +11454,7 @@ headerbar:last-child{
 .nautilus-window .path-bar button.text-button.image-button:hover,
 .nautilus-window .path-bar button:hover {
 
- color: #ffffff;
+  color: #ffffff;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
 				 -1px  0px alpha(#202020, 0.05),
 				  1px  0px alpha(#202020, 0.05),
@@ -11466,10 +11502,4 @@ headerbar .linked:not(.vertical):not(.path-bar) > button:only-child {
 
   border-radius: 4px;}
 
-
-
-
-
-
-  
 

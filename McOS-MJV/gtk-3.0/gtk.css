@@ -6826,6 +6826,12 @@ frame > border.flat{
 
   border-style: none; }
 
+actionbar > revealer > box {
+  padding: 6px;
+  border-top: 1px solid rgba(105, 105, 105, 0.3); }
+  actionbar > revealer > box:backdrop {
+    border-color:rgba(105, 105, 105, 0.3); }
+
 
 /******************************************************************/
 /*                  SCROLLED WINDOW                               */
@@ -9807,29 +9813,14 @@ headerbar separator {
 
   border-radius: 0; }
 
-headerbar:first-child:backdrop {
-
-  border-top-left-radius: 4px; }
- 
-
-
 .maximized headerbar:last-child{
 
   border-radius: 0; }
-
-headerbar:last-child:backdrop {
-
-  border-top-right-radius: 4px; }
 
 .maximized headerbar:last-child:backdrop{
 
   border-radius: 0; }
  
-headerbar:only-child{
-
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;}
-
 headerbar separator.titlebutton{
 
   min-width: 0px;
@@ -9837,9 +9828,7 @@ headerbar separator.titlebutton{
   background: none;
   border-width: 0 0px; }
 
-headerbar separator.titlebutton:backdrop{
-
-   }
+headerbar separator.titlebutton:backdrop{}
 
 headerbar.selection-mode button{
 
@@ -10629,19 +10618,20 @@ headerbar button.titlebutton.restore:active,
 /*--------------DECORATION ---------------------------------------  */
 /********************************************************************/
 
-decoration {
+.csd decoration {
 
   border-radius: 6px 6px 0 0;
-  border-width: 0px;
-  box-shadow: 1px 14px 14px 14px rgba(0, 0, 0, 0.4)/* 0 0 0 1px rgba(0, 0, 0, 0.18)*/;
+  border-width: 1px;
+  box-shadow: 1px 8px 8px 8px rgba(0,0,0,0.3),0 0 0 1px rgba(0, 0, 0, 0.1);
   margin: 4px;}
 
-decoration:backdrop{
+.csd decoration:backdrop{
 
   border-radius: 6px 6px 0 0;
-  border-width: 0px;
-  box-shadow: 1px 14px 14px 14px rgba(0, 0, 0, 0.4)/* 0 0 0 1px rgba(0, 0, 0, 0.18)*/;
+  border-width: 1px;
+  box-shadow: 1px 8px 8px 8px rgba(0,0,0,0.18),0 0 0 1px rgba(0, 0, 0, 0.1);
   margin: 4px;}
+
 
 .maximized decoration,
 .fullscreen decoration,
@@ -10653,18 +10643,43 @@ popup decoration {
 
   box-shadow: 1px 7px 7px 7px rgba(0, 0, 0, 0.26);
   border-radius: 4px;}
-
+ 
 .ssd decoration {
-  margin: 0px;
-  box-shadow: 1px 8px 8px 8px rgba(0, 0, 0, 0.16),0 0 0 1px rgba(0, 0, 0, 0.18);}
 
+  border-radius: 6px 6px 0 0;
+  box-shadow: none;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);}
+  
 .ssd decoration:backdrop {
-  margin: 0px;
-  box-shadow: 1px 8px 8px 8px rgba(0, 0, 0, 0.16),0 0 0 1px rgba(0, 0, 0, 0.18);}
 
+ border-radius: 6px 6px 0 0;
+ box-shadow: none;
+ box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);}
+  
 .csd.popup decoration {
   border-radius: 4px;
   box-shadow: -1px 4px 4px 1px rgba(0, 0, 0, 0.28);}
+
+tooltip.csd decoration {
+
+ box-shadow: 1px 6px 6px 6px rgba(0, 0, 0, 0.26),0 0 0 1px rgba(0, 0, 0, 0.18);
+  border-radius: 4px;} 
+
+messagedialog.csd decoration {
+
+  border-radius: 4px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.26),0 0 0 1px rgba(0, 0, 0, 0.18);}
+
+.solid-csd decoration {
+
+  background-color: transparent;
+  margin: 0;
+  padding: 2px;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.26);}
+
+.solid-csd decoration:backdrop {
+
+box-shadow: 0 6px 6px rgba(0, 0, 0, 0.26);}
 
  
 /*.csd.popup decoration:backdrop {
@@ -11088,14 +11103,23 @@ window.background:not(.solid-csd) > notebook:not(.frame) > stack {
   border: none;
   box-shadow: none; }
 
+/*(((((((((((( headerbar changes ))))))))))))*/
+  
+headerbar:first-child:backdrop,
 headerbar:first-child{
 
-  border-top-left-radius: 4px; }
+  border-top-left-radius: 6px; }
   
-
+headerbar:last-child:backdrop,  
 headerbar:last-child{
 
-  border-top-right-radius: 4px; }
+  border-top-right-radius: 6px; }
+  
+headerbar:only-child:backdrop, 
+headerbar:only-child{
+
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;}
   
 
 

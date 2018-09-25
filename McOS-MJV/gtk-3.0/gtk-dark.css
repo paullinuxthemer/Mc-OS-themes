@@ -10074,29 +10074,14 @@ headerbar separator {
 .maximized headerbar:first-child{
 
   border-radius: 0; }
-
-headerbar:first-child:backdrop {
-
-  border-top-left-radius: 5px; }
- 
-
-
+  
 .maximized headerbar:last-child{
 
   border-radius: 0; }
 
-headerbar:last-child:backdrop {
-
-  border-top-right-radius: 5px; }
-
 .maximized headerbar:last-child:backdrop{
 
   border-radius: 0; }
- 
-headerbar:only-child{
-
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;}
 
 headerbar separator.titlebutton{
 
@@ -10105,9 +10090,7 @@ headerbar separator.titlebutton{
   background: none;
   border-width: 0 0px; }
 
-headerbar separator.titlebutton:backdrop{
-
-   }
+headerbar separator.titlebutton:backdrop{}
 
 headerbar.selection-mode button{
 
@@ -10900,20 +10883,20 @@ headerbar button.titlebutton.restore:active,
 /********************************************************************/
 /*--------------DECORATION ---------------------------------------  */
 /********************************************************************/
-
-decoration {
-
-  border-radius: 6px 6px 0 0;
-  border-width: 0px;
-  box-shadow: 1px 14px 14px 14px rgba(0, 0, 0, 0.4)/* 0 0 0 1px rgba(0, 0, 0, 0.18)*/;
-  margin: 4px;}
-
-decoration:backdrop{
+.csd decoration {
 
   border-radius: 6px 6px 0 0;
-  border-width: 0px;
-  box-shadow: 1px 14px 14px 14px rgba(0, 0, 0, 0.4)/* 0 0 0 1px rgba(0, 0, 0, 0.18)*/;
+  border-width: 1px;
+  box-shadow: 1px 8px 8px 8px rgba(0,0,0,0.3),0 0 0 1px rgba(0, 0, 0, 0.1);
   margin: 4px;}
+
+.csd decoration:backdrop{
+
+  border-radius: 6px 6px 0 0;
+  border-width: 1px;
+  box-shadow: 1px 8px 8px 8px rgba(0,0,0,0.18),0 0 0 1px rgba(0, 0, 0, 0.1);
+  margin: 4px;}
+
 
 .maximized decoration,
 .fullscreen decoration,
@@ -10925,23 +10908,22 @@ popup decoration {
 
   box-shadow: 1px 7px 7px 7px rgba(0, 0, 0, 0.26);
   border-radius: 4px;}
-
-.ssd decoration {
-  margin: 0px;
-  box-shadow: 1px 8px 8px 8px rgba(0, 0, 0, 0.16),0 0 0 1px rgba(0, 0, 0, 0.18);}
-
-.ssd decoration:backdrop {
-  margin: 0px;
-  box-shadow: 1px 8px 8px 8px rgba(0, 0, 0, 0.16),0 0 0 1px rgba(0, 0, 0, 0.18);}
-
-.csd.popup decoration {
-  border-radius: 5px;
-  box-shadow: -1px 4px 4px 1px rgba(0, 0, 0, 0.28);}
-
  
-/*.csd.popup decoration:backdrop {
+.ssd decoration {
 
-  box-shadow: 1px 8px 8px 8px rgba(0, 0, 0, 0.26);}*/
+  border-radius: 6px 6px 0 0;
+  box-shadow: none;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);}
+  
+.ssd decoration:backdrop {
+
+ border-radius: 6px 6px 0 0;
+ box-shadow: none;
+ box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);}
+  
+.csd.popup decoration {
+  border-radius: 4px;
+  box-shadow: -1px 4px 4px 1px rgba(0, 0, 0, 0.28);}
 
 tooltip.csd decoration {
 
@@ -11369,5 +11351,22 @@ headerbar:last-child{
  
   border-top-right-radius: 5px; }
   
+/*(((((((((((( headerbar changes ))))))))))))*/
+  
+headerbar:first-child:backdrop,
+headerbar:first-child{
+
+  border-top-left-radius: 6px; }
+  
+headerbar:last-child:backdrop,  
+headerbar:last-child{
+
+  border-top-right-radius: 6px; }
+  
+headerbar:only-child:backdrop, 
+headerbar:only-child{
+
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;}
 
 
