@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="32"
+   width="32"
+   version="1.1"
+   viewBox="0 0 8.466667 8.4666669"
+   id="svg25"
+   sodipodi:docname="checkbox-mixed-dark@2.svg"
+   inkscape:version="0.92.1 r15371">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="953"
+     inkscape:window-height="849"
+     id="namedview27"
+     showgrid="false"
+     inkscape:zoom="7.375"
+     inkscape:cx="17.421621"
+     inkscape:cy="16"
+     inkscape:window-x="0"
+     inkscape:window-y="31"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg25" />
+  <defs
+     id="defs7">
+    <linearGradient
+       id="linearGradient3856-2-5-9"
+       x1="399.09"
+       gradientUnits="userSpaceOnUse"
+       y1="514.38"
+       gradientTransform="matrix(0.49182,0,0,0.49122982,-192.48199,-244.75855)"
+       x2="399.09"
+       y2="499.38">
+      <stop
+         stop-color="#1d60c4"
+         offset="0"
+         id="stop2" />
+      <stop
+         stop-color="#1d60c4"
+         offset="1"
+         id="stop4" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata9">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     rx="0"
+     ry="0"
+     height="7.368547"
+     width="7.3773999"
+     y="0.58665562"
+     x="0.52916664"
+     id="rect11"
+     style="fill:none;stroke-width:1.99879968" />
+  <rect
+     rx="1.50622"
+     ry="1.5044125"
+     height="7.368547"
+     width="7.3773999"
+     y="0.54672557"
+     x="0.56006664"
+     id="rect13"
+     style="fill:#262934;stroke-width:1.99879968;fill-opacity:1" />
+  <rect
+     rx="1.3054"
+     ry="1.3038335"
+     height="6.386127"
+     width="6.3937998"
+     y="1.0461255"
+     x="1.0518867"
+     id="rect15"
+     style="fill:#2d323d;stroke-width:1.99879968;fill-opacity:1" />
+  <rect
+     rx="0.55816001"
+     ry="0.48355904"
+     height="0.96711808"
+     width="4.6107998"
+     y="4.1024513"
+     x="1.9433466"
+     id="rect17"
+     style="opacity:0.704;stroke-width:1.99879968" />
+  <rect
+     rx="0.55816001"
+     ry="0.48355904"
+     height="0.96711808"
+     width="4.6107998"
+     y="3.7428977"
+     x="1.9433466"
+     id="rect19"
+     style="fill:#d3dae3;stroke-width:1.99879968;fill-opacity:1" />
+</svg>
