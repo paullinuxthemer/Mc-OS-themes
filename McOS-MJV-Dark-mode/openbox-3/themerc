@@ -1,0 +1,130 @@
+!! Adwaita-Dark-openbox based on Adwaita-openbox by lazork
+
+!! Menu border
+menu.border.width: 1
+menu.border.color: #A0A0A0
+
+!! Menu background
+menu.items.bg: flat
+menu.items.bg.color: #393f3f
+
+!! Menu text
+menu.items.text.color: #eeeeec
+menu.items.justify: left
+menu.items.disabled.text.color: #C1C1C1
+
+!! Menu headers
+menu.title.bg: flat
+menu.title.bg.color: #393f3f
+menu.title.text.color: #eeeeec
+menu.title.text.justify: center
+
+!! Selected menu item
+menu.items.active.bg: flat
+menu.items.active.bg.color: #4A90D9
+menu.items.active.text.color: #FFFFFF
+
+!! Titlebar
+window.active.title.bg: flat
+window.active.title.bg.color: #393f3f
+window.inactive.title.bg: flat
+window.inactive.title.bg.color: #292f2f
+
+!! Titlebar text
+window.label.text.justify: center
+window.active.label.bg: parentrelative
+window.active.label.text.color: #eeeeec
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #747474
+
+!! Window buttons
+window.*.button.*.bg: parentrelative
+#window.active.button.*.hover.bg: flat splitvertical gradient
+window.inactive.button.*.hover.bg: parentrelative
+window.*.button.*.pressed.bg: flat splitvertical gradient border
+
+#window.active.button.*.hover.bg.color: #292f2f
+#window.active.button.*.hover.bg.colorTo: #292f2f
+#window.active.button.*.hover.bg.color.splitTo: #000000
+#window.active.button.*.hover.bg.colorTo.SplitTo: #000000
+window.active.button.*.hover.image.color: #A0A0A0
+#window.active.button.*.hover.bg.border.color: #A0A0A0
+
+window.active.button.*.pressed.bg.color: #292f2f
+window.active.button.*.pressed.bg.colorTo: #292f2f
+window.active.button.*.pressed.bg.color.splitTo: #000000
+window.active.button.*.pressed.bg.colorTo.SplitTo: #000000
+window.active.button.*.pressed.image.color: #747474
+window.active.button.*.pressed.bg.border.color: #A0A0A0
+window.inactive.button.*.pressed.bg.color: #292f2f
+window.inactive.button.*.pressed.bg.colorTo: #292f2f
+window.inactive.button.*.pressed.bg.color.splitTo: #000000
+window.inactive.button.*.pressed.bg.colorTo.SplitTo: #000000
+window.inactive.button.*.pressed.image.color: #747474
+window.inactive.button.*.pressed.bg.border.color: #A0A0A0
+
+window.active.button.*.image.color: #eeeeec
+window.active.button.disabled.image.color: #C1C1C1
+window.inactive.button.*.image.color: #747474
+window.inactive.button.disabled.image.color: #C1C1C1
+
+window.active.button.pressed.image.color: #5294E2
+window.active.button.disabled.image.color: #dbdfe3
+window.active.button.iconify.unpressed.image.color: #f9bc2d
+window.active.button.max.unpressed.image.color: #2bcc46
+window.active.button..close.unpressed.image.color: #f95f57
+window.active.button.iconify.hover.image.color: #df9e07
+window.active.button.max.hover.image.color: #24a83a
+window.active.button.close.hover.image.color: #dd1308
+window.active.button.toggled.unpressed.image.color: #24a83a
+window.active.button.toggled.pressed.image.color: #5294E2
+window.active.button.toggled.hover.image.color: #2bcc46
+window.inactive.button.unpressed.image.color: #dddee2
+window.inactive.button.pressed.image.color: #5294E2
+window.inactive.button.disabled.image.color: #dbdfe3
+window.inactive.button.hover.image.color: #70788d
+window.inactive.button.toggled.unpressed.image.color: #dddee2
+window.inactive.button.toggled.pressed.image.color: #5294E2
+window.inactive.button.toggled.hover.image.color: #70788d
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.pressed.bg: parentrelative
+window.active.button.hover.bg: parentrelative
+window.active.button.disabled.bg: parentrelative
+window.active.button.toggled.unpressed.bg: parentrelative
+window.active.button.toggled.pressed.bg: parentrelative
+window.active.button.toggled.hover.bg: parentrelative
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.hover.bg: parentrelative
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.toggled.unpressed.bg: parentrelative
+window.inactive.button.toggled.pressed.bg: parentrelative
+window.inactive.button.toggled.hover.bg: parentrelative
+
+!! Borders
+window.active.border.color: #747474
+window.inactive.border.color: #292f2f
+window.*.title.separator.color: #393f3f
+border.width: 1
+padding.width: 2
+window.handle.width: 0
+window.active.client.color:  #393f3f
+window.inactive.client.color:  #393f3f
+window.client.padding.width: 0
+window.client.padding.height: 1
+menu.overlap: 0
+
+!! Font shadows
+
+!! On-screen displays
+osd.border.width: 1
+osd.border.color: #a0a0a0
+osd.bg: flat
+osd.bg.color: #393f3f
+osd.bg.colorTo: #393f3f
+osd.label.text.color: #FFFFFF
+osd.hilight.bg: raised
+osd.unhilight.bg: flat
+osd.hilight.bg.color: #4A90D9
+osd.unhilight.bg.color: #747474
