@@ -1487,7 +1487,7 @@ osd spinbutton:not(.vertical) > button:first-child:hover:not(:active){
 .osd scale slider {
 
   background-color: #3e3e3e; /* inside slider-button color*/
-  border-color: #323232; } }
+  border-color: #323232; } 
 
 .osd scale slider:hover {
 
@@ -1615,7 +1615,7 @@ button.suggested-action.sidebar-button {
   
 .primary-toolbar button.suggested-action:disabled,
 button.suggested-action.sidebar-button:disabled {
-  bborder-color: transparent;
+  border-color: transparent;
   background-color: transparent;
   background-image: none;
   text-shadow: none;
@@ -6299,11 +6299,10 @@ menuitem.button.flat:active arrow:disabled{
 /*******Menu-item scale trough ***********/
 
 menuitem:hover scale trough{
-
   border-radius: 3px; 
   background-color: rgba(0,0,0,0.4); 
   border: 1px solid;
-  border-color: #323232;} }
+  border-color: #323232; } 
 
 menuitem:hover scale trough highlight{
 
@@ -8195,12 +8194,11 @@ paned > separator:selected {
   background-image: linear-gradient(to bottom, #3273c4, #3273c4); }
 
 paned > separator.wide {
-
   min-width: 5px;
   min-height: 5px;
   background-color: rgba(64,65,67,0.99);
-  background-image: linear-gradient(to bottom, #505050, #505050));
-  background-size: 1px 1px }
+  background-image: linear-gradient(to bottom, #505050, #505050);
+  background-size: 1px 1px; }
 
 paned.horizontal > separator {
 
@@ -8817,7 +8815,8 @@ entry.search.preferences-search {
   border-radius: 0; }
 
 preferences stacksidebar.sidebar list {
-  background-image: linear-gradient(to bottom, #303030 #303030); }
+
+  background-color: #303030; }
 
 preferences stacksidebar.sidebar list separator {
 
@@ -8930,7 +8929,7 @@ button.documents-favorite:active:hover {
  
  border: none;
   background-image:url("objects-dark/other/blurredT.png"),linear-gradient(to bottom left,rgba(64,64,64,1),rgba(64,64,64,1));
-  background-size: stretch;
+  background-size: cover;
 }
   
 .tweak.title:dir(ltr){
