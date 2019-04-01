@@ -7626,8 +7626,8 @@ messagedialog.csd .dialog-action-area button:disabled{
 /*********************************************************************/
 
 .sidebar {
-
-  min-width: 150px;
+ min-width: 0;
+  /*min-width: 150px;*/
   border-style: none;
   background-color: #f6f8fa; }
 
@@ -7729,8 +7729,8 @@ stacksidebar row.needs-attention > label {
 /***************PLACESSIDEBAR**************************/
 
 placessidebar.sidebar{
-
-  min-width: 166px;
+  min-width; 0;
+  /*min-width: 166px;*/
   background-color: transparent;
   background-color: rgba(255,255,255,0.92);
   background-image:url("objects/other/blurred6.png");
@@ -9549,7 +9549,7 @@ GtkListBox .h4 {
 .source-list {
 
   -GtkTreeView-horizontal-separator: 1px;
-  -GtkTreeView-vertical-separator: 6px; }
+  -GtkTreeView-vertical-separator: 6px;/*6*/ }
 
 .source-list{
 
@@ -9929,12 +9929,12 @@ headerbar.default-decoration,
 
 headerbar separator {
 
-  padding-left: 6px;
+ /* padding-left: 6px;
   padding-right: 6px;
   padding-top: 3px;
   padding-bottom: 3px;
   margin-top: 6px;
-  margin-bottom: 4px; }
+  margin-bottom: 4px;*/ }
 
 .maximized headerbar:first-child{
 

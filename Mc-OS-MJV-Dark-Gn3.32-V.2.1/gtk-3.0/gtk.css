@@ -1897,7 +1897,7 @@ combobox button.combo {
   min-width: 16px;
   padding-left: 1px;
   padding-right:1px;
-  margin: -2px -13px -2px 0px;
+  margin: -1px -13px -1px 0px;
   border-radius: 0 4.3px 4.3px 0;
 
   /*border-width: 0.8px;
@@ -7820,7 +7820,7 @@ messagedialog.csd .dialog-action-area button:disabled{
 
 .sidebar {
 
-  min-width: 150px;
+ /* min-width: 150px;*/
   border-style: none;
   background-color: #3b3b3b; }
 
@@ -7923,7 +7923,7 @@ stacksidebar row.needs-attention > label {
 
 placessidebar.sidebar{
 
-  min-width: 166px;
+ /* min-width: 166px;*/
   background-color: rgba(64,64,64,0.97);
   background-image:url("objects-dark/other/blurredT.png");
   background-size: cover;}
@@ -10177,12 +10177,12 @@ headerbar.default-decoration,
 
 headerbar separator {
   
-  padding-left: 6px;
+ /* padding-left: 6px;
   padding-right: 6px;
   padding-top: 3px;
   padding-bottom: 3px;
   margin-top: 6px;
-  margin-bottom: 4px; }
+  margin-bottom: 4px;*/ }
 
 
 .maximized headerbar:first-child{
