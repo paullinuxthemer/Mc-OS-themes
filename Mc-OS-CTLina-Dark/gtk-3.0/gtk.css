@@ -2278,7 +2278,7 @@ toolbar.bottom-toolbar button{
   border-bottom-right-radius:0px;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  border-style: solid;}}
+  border-style: solid;}
 
 .primary-toolbar .linked:not(.vertical):not(path-bar) > button:only-child {
 
@@ -11530,147 +11530,11 @@ headerbar:only-child{
 
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;}
-  
-  /*((((((((((((3.30 nautilus changes)))))))))))))))))*/
-/*.nautilus-window .path-bar button {
-  
-  /*color: #dddddd;
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-  background-color: transparent;*/
- /* background-image: linear-gradient(to bottom,#67686a,#626366);
-  border: 1px solid;
-  border-color:#7c7d80 #535457 #3e3f41 #535457;*/
- /* font-weight: normal;*/
-  /*border-radius: 3px;*/
- /* min-height: 16px;
-  min-width: 16px;
-  padding: 1px 6px 1px 6px;*/
- /* margin-top: 7px;
-  margin-bottom: 4px;*/
-  /*margin-left: -7px;*/
-  
-/*.nautilus-window .path-bar button.text-button,
-.nautilus-window .path-bar button.text-button.image-button,
-.nautilus-window .path-bar button {*/
 
- /*margin-left: -7px;*/
- /* min-height: 16px;
-  min-width: 16px;
-  padding: 2px 6px 2px 6px;
-  font-weight: normal;
-  color: #dddddd;
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-  background-color: transparent;
-  background-image: linear-gradient(to bottom,#7a7b7c, #7a7b7c 1px,#67686a 1px, #67686a,#626366);
-  border-color:#5c5d5d #535457 #3e3f41 #535457;
-  font-weight: normal;
-  -gtk-icon-shadow: none;
-  border-radius:0px;
-  border-width: 0 1px 0 0;
-  margin-top:0px;
-  margin-bottom:0px;
-  margin-left:-6px;
-  margin-right:0px;
-}
-
-.nautilus-window .path-bar button.text-button:checked,
-.nautilus-window .path-bar button.text-button.image-button:checked,
-.nautilus-window .path-bar button:checked {
- 
- color: #ffffff;
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-  background-color: transparent;
-  background-image: linear-gradient(to bottom,#7a7b7c, #7a7b7c 1px,#67686a 1px, #67686a,#626366);
-  border-color:#5c5d5d #535457 #3e3f41 #535457;}
-  
- 
-.nautilus-window .path-bar button.text-button:checked:hover,
-.nautilus-window .path-bar button.text-button.image-button:checked:hover,
-.nautilus-window .path-bar button:checked:hover {
-  color: #ffffff;
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-  background-color: transparent;
-  background-image: linear-gradient(to bottom,#7a7b7c, #7a7b7c 1px,#67686a 1px, #67686a,#626366);
-  border-color:#5c5d5d #535457 #3e3f41 #535457;}
-  
-.nautilus-window .path-bar button.text-button:hover,
-.nautilus-window .path-bar button.text-button.image-button:hover,
-.nautilus-window .path-bar button:hover {
-
-  color: #ffffff;
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-  background-color: transparent;
-  background-image: linear-gradient(to bottom,#7a7b7c, #7a7b7c 1px,#67686a 1px, #67686a,#626366);
-  border-color:#5c5d5d #535457 #3e3f41 #535457;}
- 
-.nautilus-window .path-bar-box {
-
-  margin-top:3px;
-  padding-left:2px;
-  padding-right:7px;
-  margin-right:34px;
-  background-color: transparent;
-  background-image: linear-gradient(to bottom,#5c5d5d,#5c5d5d 1px,#7a7b7c 1px,#7a7b7c 2px, #67686a 2px, #67686a,#626366);
-  border: 0.8px solid;
-  border-color: rgba(0,0,0,0.6);
-  border-radius: 5px;
-}
-headerbar .linked:not(.vertical):not(.path-bar) > button{
-
-  margin-left: 1px;
-  margin-right: 1px;
-  border-radius: 5px;
- /* color:#cacaca;
-  background-color: transparent;
-  background-image: linear-gradient(to bottom,#67686a,#626366);
-  border: 0.8px solid;
-  border-color:#7c7d80 #535457 #3e3f41 #535457;
-  border-radius: 5px;
-  margin-left: 1px;
-  margin-right: 1px;
-  padding-top:0px;
-  padding-bottom: 0px;*/
- /* padding: 3px 6px 3px 6px;*/
- /* margin-top: 7px;
-  margin-bottom: 4px;*/
-  
-/*headerbar .linked:not(.vertical):not(.path-bar) > button:first-child{
- 
-  border-radius: 5px;
-  padding-left: 6px;
-  padding-right: 6px;} 
-
-headerbar .linked:not(.vertical):not(.path-bar) > button:last-child{
-  border-radius: 5px;
-  padding-left: 6px;
-  padding-right: 6px;}
-
-headerbar .linked:not(.vertical):not(.path-bar) > button:only-child {
-  
-  border-radius: 5px;}*/
   
 window.background.csd > box.horizontal > box.vertical > scrolledwindow.view > viewport.frame > stack > list{
-background-color: rgba(64,64,64,0.96);
+
+  background-color: rgba(64,64,64,0.96);
   background-image:url("objects-dark/other/blurredT.png");
   background-size: cover;}
 

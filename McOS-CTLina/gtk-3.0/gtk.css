@@ -4626,77 +4626,7 @@ headerbar button.destructive-action.flat:disabled label{
 
   color: rgba(41, 33, 33, 0.35); }
 
-/*(((((((((  HEADERBAR LINKED:NOT(.VERTICAL).PATH-BAR ))))))))))))*/
 
-/*headerbar .linked:not(.vertical).path-bar > button {
-
-  color: #252525;
-  background-color: transparent;
-  background-image: linear-gradient(to bottom,#fdfdfd,#f1f1f1);
-  border: 1px solid;
-  padding: 0px 0px 0px 0px;
-  border-color: #d9d9d9 #cdcdcd #bdbdbd #cdcdcd;
-  border-radius: 0;
-  border-right-style: none;}
-
-headerbar .linked:not(.vertical).path-bar > button:hover {
-
-  color: #202020;
-  background-color: transparent;
-  background-image: image(rgba(254,255,255,1));
-  border-color: #d9d9d9 #cdcdcd #bdbdbd #cdcdcd; }
-                                            
-headerbar .linked:not(.vertical).path-bar > button:active{
-
-  text-shadow: none;
-  color: #000000; 
-  border-color: #d9d9d9 #cdcdcd #bdbdbd #cdcdcd;
- 
-  background-color: transparent;
-  background-image:image(#dcdddf);}
-
-headerbar .linked:not(.vertical).path-bar > button:checked {
- 
- color: #ffffff;
- /* text-shadow: 0 -1px alpha(#202020, 0.2);
-				 -1px 0px alpha(#202020, 0.05),
-				  1px  0px alpha(#000000, 1),
-				  0px  1px alpha(#202020, 0.05),
-				  0px  2px alpha(#202020, 0.05);
-  -gtk-icon-shadow: 0 -1px alpha(#202020, 0.2);*/
-  
-  /*border: 1px solid;*/
- /* border-right-color: #cdcdcd;
-  border-left-color: #cdcdcd;
-  border-bottom-color:  #bdbdbd;
-  border-top-color: #d9d9d9;
- 
-  background-color: transparent;
-  background-image:linear-gradient(to bottom,rgba(100,103,114,0.7),rgba(100,103,114,0.9));*//*,rgba(100,103,114,1),rgba(100,103,114,0.8));*/
- /* background-image: linear-gradient(to bottom,#737273,
-                                              #6b6b6c);*/
-  /*}
-headerbar .linked:not(.vertical).path-bar > button:checked:hover {
- 
- color: #ffffff;*/
- /* text-shadow: 0 -1px alpha(#202020, 0.2);
-				 -1px 0px alpha(#202020, 0.05),
-				  1px  0px alpha(#000000, 1),
-				  0px  1px alpha(#202020, 0.05),
-				  0px  2px alpha(#202020, 0.05);
-  -gtk-icon-shadow: 0 -1px alpha(#202020, 0.2);*/
-  
-  /*border: 1px solid;*/
- /* border-right-color: #cdcdcd;
-  border-left-color: #cdcdcd;
-  border-bottom-color:  #bdbdbd;
-  border-top-color: #d9d9d9;
- 
-  background-color: transparent;
-  background-image:linear-gradient(to bottom,rgba(100,103,114,0.8),rgba(100,103,114,1));*//*,rgba(100,103,114,1),rgba(100,103,114,0.8));*/
- /* background-image: linear-gradient(to bottom,#737273,
-                                              #6b6b6c);*/
-  /*}*/
   
 headerbar .linked:not(.vertical).path-bar > button:disabled {
 
@@ -4732,13 +4662,8 @@ headerbar .linked:not(.vertical).path-bar > button:last-child{
 
 headerbar .linked:not(.vertical).path-bar > button:only-child {
 
-  
   border-radius: 5px;
   border-style: solid;}
-
-/*headerbar .linked:not(.vertical).path-bar > button:not(:first-child):not(:only-child):not(:last-child){
-border-left-style: none;
-border-right-style:none;}*/
 
 headerbar .linked:not(.vertical).path-bar > button:hover:not(:checked):not(:active):not(:only-child):hover {
 
@@ -7087,6 +7012,7 @@ separator {
   background-color: rgba(37,37,37, 0.2);
   min-width: 1px;
   min-height: 1px; }
+
 /*********************************************************************/
 /*            LIST                                                   */
 /*********************************************************************/
@@ -7095,13 +7021,12 @@ list {
   
   padding:0px;
   background-color:rgba(255,255,255,0.98);
-  border: none;/*rgba(105, 105, 105, 0.1); */}
+  border: none;}
 
 list row {
 
 color:#202020; 
-padding: 2px;
-/*text-shadow: 0 1px 1px rgba(0,0,0, 0.12), 0 1px 8px rgba(0,0,0, 0.3);*/}
+padding: 2px;}
  
 /*********************************************************************/
 /*            ROW                                                    */
@@ -7138,7 +7063,8 @@ row:disabled:selected{
   color: #90b5ec; }
 
 row:not(:hover) {
-text-shadow: 0 1px 1px rgba(0,0,0, 0.12)/* , 0 1px 8px rgba(0,0,0, 0.2)*/;
+
+text-shadow: 0 1px 1px rgba(0,0,0, 0.12);
   transition: all 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
 
 row.activatable.has-open-popup, row.activatable:hover {
@@ -7167,91 +7093,16 @@ row.activatable:selected:active {
 				  0px  2px alpha(#202020, 0.05); }
 
 row.activatable:selected.has-open-popup, row.activatable:selected:hover {
+
   background-image:linear-gradient(to right, #8a8e96,#7e808a,#8a8d95);
- /* background-image:linear-gradient(to right, #71c837, #3b8aed);*/
- box-shadow: 0 1px 1px rgba(0,0,0,0.04), 0 1px 8px rgba(0,0,0,0.12);
-  /*background-color: #4a85cb;*/ }
+  box-shadow: 0 1px 1px rgba(0,0,0,0.04), 0 1px 8px rgba(0,0,0,0.12); }
+
 row.activatable:hover{
-background-image:linear-gradient(to right,rgba(0,0,0,0.03),rgba(0,0,0,0.08),rgba(0,0,0,0.03),rgba(0,0,0,0.08));
-box-shadow:none:/* 0 1px 1px rgba(0,0,0,0.12), 0 1px 8px rgba(0,0,0,0.12);*/
+
+  background-image:linear-gradient(to right,rgba(0,0,0,0.03),rgba(0,0,0,0.08),rgba(0,0,0,0.03),rgba(0,0,0,0.08));
+  box-shadow: none;
 }
-/*********************************************************************/
-/*            LIST                                                   */
-/*********************************************************************/
 
-/*list {
-
-  background-color:rgba(255,255,255,1);
-  border-color: rgba(105, 105, 105, 0.1); }
-
-list row {
-    
-     }
-
-
-/*********************************************************************/
-/*            ROW                                                    */
-/*********************************************************************/
-
-/*row:selected{
-
-  color: #ffffff;
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05);
-  background-color: #4095ff; }
-
-row:selected label{
-
-  color: #ffffff;
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05); }
-
-row:selected label:disabled{
-
-  color: #90b5ec; } 
-
-row:disabled:selected{
-
-  color: #90b5ec; }
-
-row:not(:hover) {
-
-  transition: all 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94); }
-
-row.activatable.has-open-popup, row.activatable:hover {
-
-  background-color: rgba(0, 0, 0, 0.05); }
-
-row.activatable:active {
-
-  color: #202020; }
-
-row.activatable:disabled {
-
-  color: rgba(92, 97, 108, 0.55); }
-
-row.activatable:disabled image {
-
-    color: inherit; }
-
-row.activatable:selected:active {
-
-  color: #ffffff;
-  text-shadow:  0 -1px alpha(#ffffff, 0.04),
-				 -1px  0px alpha(#202020, 0.05),
-				  1px  0px alpha(#202020, 0.05),
-				  0px  1px alpha(#202020, 0.3),
-				  0px  2px alpha(#202020, 0.05); }
-
-row.activatable:selected.has-open-popup, row.activatable:selected:hover {
-
-  background-color: #4a85cb; }*/
 
 /**********ROW BUTTON *********************************/
 
@@ -7816,7 +7667,7 @@ stacksidebar row.needs-attention > label {
 /***************PLACESSIDEBAR**************************/
 
 placessidebar.sidebar{
-  min-width; 0;
+  min-width: 0;
   background-color: rgba(248,248,248,0.96);
   background-image:url("objects/other/blurred6.png")/*,linear-gradient(to bottom left,rgba(238,238,238,0.92),rgba(192,194,196,0.92))*/;
   background-size: cover;}
@@ -11398,7 +11249,7 @@ headerbar:only-child{
 headerbar .linked:not(.vertical):not(.path-bar) > button{
 
   border-radius: 5px;
- /* color:#575757;
+ color:#575757;
   background-color: transparent;
   background-image: linear-gradient(180deg,#fdfdfd,#f1f1f1);
   border: 1px solid;
@@ -11407,9 +11258,9 @@ headerbar .linked:not(.vertical):not(.path-bar) > button{
   border-radius: 4px;
   padding: 3px 6px 3px 6px;
   margin-top: 7px;
-  margin-bottom: 4px;}*/
+  margin-bottom: 4px;}
   
-/*headerbar .linked:not(.vertical):not(.path-bar) > button:first-child{
+headerbar .linked:not(.vertical):not(.path-bar) > button:first-child{
  
   border-radius: 5px;
   padding-left: 6px;
@@ -11422,17 +11273,17 @@ headerbar .linked:not(.vertical):not(.path-bar) > button:last-child{
 
 headerbar .linked:not(.vertical):not(.path-bar) > button:only-child {
 
-  border-radius: 5px;}*/
+  border-radius: 5px;}
   
   
-/* headerbar:only-child { 
+headerbar:only-child { 
 background-image:image(rgba(243,243,243,0.99));}
  
 headerbar:first-child{
 
-  background-image:linear-gradient(to right,rgba(198,200,203,1),rgba(213,216,217,1));} */
+  background-image:linear-gradient(to right,rgba(198,200,203,1),rgba(213,216,217,1));} 
   
-/*headerbar:last-child { 
+headerbar:last-child { 
 background-image:image(rgba(243,243,243,0.99));}
 .terminal headerbar,
 titlebar:not headerbar:last-child,
