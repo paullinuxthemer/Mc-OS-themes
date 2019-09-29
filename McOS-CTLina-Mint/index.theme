@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=McOS-CTLina-Mint
+Comment=Mac-OS inspired theme by PaulXFCE
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=McOS-CTLina-Mint
+MetacityTheme=McOS-CTLina-Mint
+IconTheme=Adwaita
+CursorTheme=Adwaita
+ButtonLayout=close,minimize,maximize:menu

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=McOS-MJV-Cinnamon-Edition-2.0-2
+Comment=Mac-OS inspired theme by PaulXFCE
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=McOS-MJV-Cinnamon-Edition-2.0
+MetacityTheme=McOS-MJV-Cinnamon-Edition-2.0
+IconTheme=Adwaita
+CursorTheme=Adwaita
+ButtonLayout=close,minimize,maximize:menu
