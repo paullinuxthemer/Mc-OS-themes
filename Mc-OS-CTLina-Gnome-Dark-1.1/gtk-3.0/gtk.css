@@ -11543,7 +11543,12 @@ window.background.csd > box.horizontal > box.vertical > scrolledwindow.view > vi
   background-image:url("objects-dark/other/blurredT.png");
   background-size: cover;}
 
-
+headerbar .linked.raised:not(.vertical):not(.path-bar) > button.image-button, headerbar .linked.raised:not(.vertical):not(.path-bar) > button.image-button:hover, headerbar .linked.raised:not(.vertical):not(.path-bar) > button.image-button:active, headerbar .linked.raised:not(.vertical):not(.path-bar) > button.image-button:checked, headerbar .linked.raised:not(.vertical):not(.path-bar) > button.image-button:disabled {
+  border-radius: 5px;
+  margin-right: 2px;
+  /*border-right: none;*/
+  
+}
 
 
 
