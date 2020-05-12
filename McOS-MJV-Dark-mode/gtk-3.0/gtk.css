@@ -555,7 +555,7 @@ treeview.view header button {
   background-image: none;
   border-style: none solid none none;
   border-radius: 0;
-  border-image: linear-gradient(to bottom, rgba(44,43,44,0.99) 20%, rgba(255, 255, 255, 0.11) 20%, rgba(255, 255, 255, 0.11) 80%, #404552 80%) 0 1 0 0/0 1px 0 0 stretch; }
+  border-image: linear-gradient(to bottom, rgba(44,43,44,0.99) 20%, rgba(255, 255, 255, 0.11) 20%, rgba(255, 255, 255, 0.11) 80%, #404552 80%) 0 1 0 0/0 1px 0 0 stretch;
  }
 
 treeview.view header button:hover {
@@ -1145,7 +1145,8 @@ button:disabled:active label,
 button:disabled label {
 
   text-shadow: none;
-  #505050; }
+  color: #505050; 
+}
 
 button:drop(active){
 
@@ -1486,7 +1487,7 @@ osd spinbutton:not(.vertical) > button:first-child:hover:not(:active){
 .osd scale slider {
 
   background-color: #3e3e3e; /* inside slider-button color*/
-  border-color: #323232; } }
+  border-color: #323232; } 
 
 .osd scale slider:hover {
 
@@ -1614,12 +1615,11 @@ button.suggested-action.sidebar-button {
   
 .primary-toolbar button.suggested-action:disabled,
 button.suggested-action.sidebar-button:disabled {
-
-  bborder-color: transparent;
+  border-color: transparent;
   background-color: transparent;
   background-image: none;
   text-shadow: none;
-  color: #505050; } }
+  color: #505050; } 
   
  
 /*((((((BUTTON DESTRUCTIVE ACTION ))))))))*/
@@ -1985,7 +1985,7 @@ toolbar.bottom-toolbar{
   padding: 4px;
   border-width: 1px 0 0 0;
   border-style: solid;
-  bborder-color: rgba(0,0,0,1);
+  border-color: rgba(0,0,0,1);
   background-color: #474747;  }
 
 toolbar.bottom-toolbar button{
@@ -4360,7 +4360,7 @@ headerbar button:disabled {
 headerbar button:disabled label{
 
   text-shadow: none;
-  #505050; }
+  color: #505050; }
   
 headerbar button:disabled:checked{
 
@@ -4990,9 +4990,10 @@ headerbar .linked:not(.vertical):not(.path-bar) > button:first-child{
 
 headerbar .linked:not(.vertical):not(.path-bar) > button:last-child{
 
-  border-radius: 5px
+  border-radius: 5px;
   padding-left: 8px;
-  padding-right: 6px;}
+  padding-right: 6px;
+}
 
 headerbar .linked:not(.vertical):not(.path-bar) > button:only-child {
 
@@ -6298,11 +6299,10 @@ menuitem.button.flat:active arrow:disabled{
 /*******Menu-item scale trough ***********/
 
 menuitem:hover scale trough{
-
   border-radius: 3px; 
   background-color: rgba(0,0,0,0.4); 
   border: 1px solid;
-  border-color: #323232;} }
+  border-color: #323232; } 
 
 menuitem:hover scale trough highlight{
 
@@ -7318,7 +7318,7 @@ row:selected button:disabled:active{
 
   background-color: #3273c4;
   color: #505050;
-  border-color:#3273c4; } }
+  border-color:#3273c4; } 
  
 
 /*************ROW SELECTED BUTTONS ***************************/
@@ -8194,12 +8194,11 @@ paned > separator:selected {
   background-image: linear-gradient(to bottom, #3273c4, #3273c4); }
 
 paned > separator.wide {
-
   min-width: 5px;
   min-height: 5px;
-  background-color: rgba(64,65,67,0.99);/*#f3f3f3;*/
-  background-image: linear-gradient(to bottom, #505050, #505050));
-  background-size: 1px 1px }
+  background-color: rgba(64,65,67,0.99);
+  background-image: linear-gradient(to bottom, #505050, #505050);
+  background-size: 1px 1px; }
 
 paned.horizontal > separator {
 
@@ -8817,7 +8816,7 @@ entry.search.preferences-search {
 
 preferences stacksidebar.sidebar list {
 
-  background-image: linear-gradient(to bottom, #303030 #303030); }
+  background-color: #303030; }
 
 preferences stacksidebar.sidebar list separator {
 
@@ -8930,7 +8929,8 @@ button.documents-favorite:active:hover {
  
  border: none;
   background-image:url("objects-dark/other/blurredT.png"),linear-gradient(to bottom left,rgba(64,64,64,1),rgba(64,64,64,1));
-  background-size: stretch;}
+  background-size: cover;
+}
   
 .tweak.title:dir(ltr){
 
@@ -8948,7 +8948,7 @@ button.documents-favorite:active:hover {
   background-color: rgba(64,64,64,0.96);
   background-image:url("objects-dark/other/blurredT.png");
   background-size: cover;
-  color: bcbcbc;
+  color: #bcbcbc;
   text-shadow:  0 -1px alpha(#ffffff, 0.04),
 				 -1px  0px alpha(#202020, 0.05),
 				  1px  0px alpha(#202020, 0.05),
@@ -10373,8 +10373,7 @@ window > .titlebar:not(headerbar):backdrop{
   padding-right: 12px; }
 
 .titlebar:not(headerbar) > separator {
-
-  background-image: transparent;/*image(rgba(188,188,188,0.1));*/}
+  background-color: transparent/*image(rgba(188,188,188,0.1));*/}
  
 .titlebar:not(headerbar) separator.titlebutton {
 
