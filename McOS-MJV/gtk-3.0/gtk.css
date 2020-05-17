@@ -123,7 +123,7 @@
 
 .gtkstyle-fallback {
 
-  background-color: rgba(243,243,243,0.0.96); 
+  background-color: rgba(243,243,243,0.96); 
   color: #202020;
   text-shadow: none; }
   
@@ -8676,7 +8676,7 @@ button.documents-favorite:active:hover {
 .tweak-titlebar-left{
  
  border: none;
-  background-image:url("objects/other/background.png"),linear-gradient(to bottom left,rgba(252,255,255,1),rgba(252,255,255,1));}}
+  background-image:url("objects/other/background.png"),linear-gradient(to bottom left,rgba(252,255,255,1),rgba(252,255,255,1));}
   
 .tweak.title:dir(ltr){
 
